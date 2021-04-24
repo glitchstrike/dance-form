@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <title>Admission Form</title>
+        <style>
+            form{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                border:2px dotted crimson;
+                padding: 12px;
+                background-color: orange;
+                text-align: center;
+            }
+            .style1{
+                color: blue;              
+            }
+            .style2{
+                color: greenyellow;
+            }
+            #datetime{
+                color: saddlebrown;
+            }
+            #number{
+                color: seagreen;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            
+                <label class="style1">Name</label>
+            <input type="text" class="style2">
+            <br><br>
+            <label class="style2">Age</label>
+            <input type="number" class="style1">
+            <br><br>
+            <label class="style1">Favourite Color</label>
+            <input type="color">
+            <br><br>
+            <label class="style2">photo</label>
+            <input type="image">
+            <br><br>
+            <label id="datetime">Average Marks In Exams</label>
+            <input type="number" class="style2">
+            <br><br>
+            <label id="number">birth date and time</label>
+            <input type="datetime-local" class="style1">
+            <br><br>
+            <label class="style2">Email</label>
+            <input type="email" class="style1">
+            <br><br>
+            <label class="style1">Password</label>
+            <input type="password" class="style2">
+            <br><br>
+            <label class="style2">Telephone</label>
+            <input type="tel" class="style1">
+            <br><br>
+            <label class="style1">comment</label>
+            <textarea rows="5" cols="10" class="style2"></textarea>
+            <br><br>
+            <label class="style2">Submit</label>
+            <input type="button" value="submit" class="style1">
+            <br><br>
+            <label class="style1">Gender</label>
+            <input type="radio" name="Gender" value="MALE">MALE
+            <input type="radio" name="Gender" value="FEMAL">FEMALE
+            
+            
+        </form>
+    </body>
+</html>
